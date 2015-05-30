@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-color: #7B10F1;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -12,16 +12,27 @@ body, a:link, a:visited, a:active{
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
+  font-family: HelveticaNeue;
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #F12510;
 }
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
+.blinkyDancer{
+  border:10px solid #10A7F1;
   border-radius:10px;
+  position:absolute;
+}
+.modernDancer{
+  border:40px solid #F1ED10;
+  border-radius:10px;
+  position:absolute;
+}
+.oldSchoolDancer{
+  border:30px solid #7FF110;
+  border-radius:5px;
   position:absolute;
 }
