@@ -6,5 +6,6 @@ oldSchoolDancer.prototype = Object.create(makeDancer.prototype);
 oldSchoolDancer.prototype.constructor = oldSchoolDancer;
 oldSchoolDancer.prototype.step = function(){
   makeDancer.prototype.step.call(this);
+  this.$node.addClass("modernDancer");
   this.$node.toggle();
   };
