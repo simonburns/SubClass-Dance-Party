@@ -4,24 +4,24 @@ var makeDancer = function(top, left, timeBetweenSteps){
   this.$node = $('<span class="dancer"></span>');
   //assign timeBetweenSteps param to a property
   this.timeBetweenSteps = timeBetweenSteps;
+  //invokes step method to be called
+  this.step();
   //invokes setPosition method and passes top and left params
   this.setPosition(top, left);
-  //invokes method to be called
-  this.step();
 };
 
 makeDancer.prototype.step = function () {
   //need to add binding here...
-  setTimeout(this.step, this.timeBetweenSteps);
+  setTimeout(this.step.bind(this), this.timeBetweenSteps);
 };
 
 makeDancer.prototype.setPosition = function(top, left){
     var styleSettings = {
-      top: this.top,
-      left: this.left
+      top: top,
+      left: left
     };
     this.$node.css(styleSettings);
-  };
+};
 
 
 
