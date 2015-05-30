@@ -16,10 +16,10 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #F12510;
+  background-color: #CD65ED;
 }
 .title{
-  background-color: #777;
+  background-color: #CD65ED;
 }
 .blinkyDancer{
   border:10px solid #10A7F1;

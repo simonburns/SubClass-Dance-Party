@@ -13,6 +13,13 @@ $(document).ready(function(){
       Math.random() * 1000
     );
     $('body').append(dancer.$node);
+
+    $('.lineUp').on('click', function () {
+      $('.oldSchoolDancer').css({left: 0});
+      $('.modernDancer').css({left: 0});
+      $('.blinkyDancer').css({left: 0});
+    });
+
   });
 });
 
