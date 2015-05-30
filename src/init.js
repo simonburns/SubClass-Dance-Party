@@ -20,6 +20,9 @@ $(document).ready(function(){
       $('.blinkyDancer').css({left: 0});
     });
 
+    $('.modernDancer').on('mouseover', function () {
+      $('.modernDancer').css({background-image: url('http://24.media.tumblr.com/tumblr_mcxr9gbzp71rpkcuro1_250.gif')});
+    });
   });
 });
 

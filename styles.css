@@ -22,17 +22,25 @@ body, a:link, a:visited, a:active{
   background-color: #CD65ED;
 }
 .blinkyDancer{
-  border:10px solid #10A7F1;
-  border-radius:10px;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/90/a0/d6/90a0d679f076d9c142e4f484437c721a.gif');
+  height: 498px;
+  width: 304px;
+  z-index: 1;
   position:absolute;
 }
 .modernDancer{
-  border:40px solid #F1ED10;
-  border-radius:10px;
+  background-image: url('http://25.media.tumblr.com/17eaa64a6848369e1eea26bb08fe8d4c/tumblr_mfzeeyMiJD1rgpyeqo1_500.gif');
+  height: 498px;
+  width: 304px;
+  z-index: 1;
   position:absolute;
 }
 .oldSchoolDancer{
-  border:30px solid #7FF110;
-  border-radius:5px;
+  background-image: url('http://24.media.tumblr.com/tumblr_men4drfXRu1qe5icro1_400.gif');
+/*  border:40px solid #F1ED10;
+  border-radius:10px;*/
+  height: 500px;
+  width: 330px;
+  z-index: 1;
   position:absolute;
 }

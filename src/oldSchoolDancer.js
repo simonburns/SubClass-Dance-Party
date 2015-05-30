@@ -1,5 +1,5 @@
 var makeOldSchoolDancer = function(top, left, timeBetweenSteps){
-  makeDancer.call(this,top, left, timeBetweenSteps);
+  makeDancer.call(this,top, left, 2000);
 };
 
 makeOldSchoolDancer.prototype = Object.create(makeDancer.prototype);
