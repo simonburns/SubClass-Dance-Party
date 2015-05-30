@@ -24,9 +24,9 @@ body, a:link, a:visited, a:active{
   font-family: 'Helvetica Neue';
 }
 .blinkyDancer{
-  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/90/a0/d6/90a0d679f076d9c142e4f484437c721a.gif');
+  background-image: url('http://i.imgur.com/YdmGHYG.gif');
   height: 498px;
-  width: 304px;
+  width: 400px;
   z-index: 1;
   position:absolute;
 }
